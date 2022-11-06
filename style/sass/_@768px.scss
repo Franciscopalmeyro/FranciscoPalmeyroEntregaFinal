@@ -1,0 +1,61 @@
+/*3. Estilos desde 768px*/
+/*3.1 Estilos 768px Index*/
+@media screen and (min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+    .logomain {
+       min-width: 100%;
+       padding-left: 0px;
+    }
+
+    .imagenp{
+        transform: translate3d (-50px, 0, 0);
+    }
+
+    .navbar {
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows: 50% 50%;
+        height: 30vh;
+        margin: 5%;
+        align-items: center;
+        padding: 1%;
+        border: 1px solid white;
+        font-size: 2em;
+    }
+
+    .navlista:hover {
+        transform: scale(1.5);
+    }
+
+    .navlista {
+        float: left;
+        justify-content: space-evenly;
+    }
+
+    .maintext {
+        font-size: 150%;
+    }
+
+    .comentario1 {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .comentario2 {
+        font-size: 180%;
+    }
+
+    .redes {
+        margin-bottom: 2%;
+        border: 1px solid $letras2;
+    }
+
+    /*Estilos Contacto desde 768px*/
+    .contact_form {
+        width: 50%;
+    }
+
+}
+

@@ -1,0 +1,389 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/*1.Estilos generales movil*/
+body {
+  background-color: rgb(22, 21, 21);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(22, 21, 21);
+}
+body .maintittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .logomain {
+  max-width: 30%;
+  padding-bottom: 5%;
+}
+
+nav ul li {
+  list-style-type: none;
+  background-color: rgb(22, 21, 21);
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 1%;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(8, 226, 117);
+  font-variant: small-caps;
+  font-size: 90%;
+}
+
+footer {
+  height: 30%;
+}
+footer ul li {
+  list-style-type: none;
+  padding: 5%;
+  float: left;
+  background-color: rgb(22, 21, 21);
+}
+footer ul li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(8, 226, 117);
+  font-variant: small-caps;
+  font-size: 90%;
+}
+
+/*1.1. Estilos movil index*/
+.navbar {
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+.navbar .buttonnb {
+  display: flex;
+  justify-items: center;
+}
+
+.maintext {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.comentario1 {
+  background-color: rgb(22, 21, 21);
+  color: rgb(8, 226, 117);
+  font-weight: bolder;
+  width: 90%;
+  padding: 5%;
+}
+
+.comentario2 {
+  color: rgb(8, 226, 117);
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.imagenp {
+  max-height: 90%;
+  max-width: 100%;
+  animation: fadeIn 20s;
+  -webkit-animation: fadeIn 20s;
+  -moz-animation: fadeIn 20s;
+  -o-animation: fadeIn 20s;
+  -ms-animation: fadeIn 20s;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.redes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  justify-items: stretch;
+}
+
+/*1.2. Estilos Movil Galeria*/
+.ejemplo {
+  margin-bottom: 50px;
+}
+
+.contactoh2 {
+  background-color: rgb(22, 21, 21);
+  color: aliceblue;
+  font-weight: bolder;
+  padding: 5%;
+  text-align: center;
+}
+
+.galeria {
+  display: grid;
+  max-width: 90%;
+  justify-items: center;
+}
+
+.boot {
+  background-color: rgb(22, 21, 21);
+  color: rgb(8, 226, 117);
+}
+
+.buttonboot {
+  text-align: center;
+  background-color: rgb(8, 226, 117);
+  color: rgb(22, 21, 21);
+}
+
+/*1.3. Estilos Movil nosotros*/
+.nosotrosh2 {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 5%;
+  border: 2px solid aliceblue;
+}
+
+.comentarioNosotros1 {
+  background-color: rgb(22, 21, 21);
+  color: rgb(8, 226, 117);
+  font-weight: bolder;
+  width: 90%;
+  padding: 5%;
+}
+
+.comentarioNosotros2 {
+  background-color: rgb(22, 21, 21);
+  color: aliceblue;
+  font-weight: bolder;
+  width: 90%;
+  padding: 5%;
+}
+
+/*1.4.Estilos Movil Contacto*/
+.contact_form {
+  width: 90%;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgb(22, 21, 21);
+  padding-left: 30px;
+}
+.contact_form .tituloform {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: rgb(8, 226, 117);
+}
+.contact_form h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: rgb(8, 226, 117);
+}
+.contact_form input {
+  background-color: rgb(22, 21, 21);
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(8, 226, 117);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: rgb(8, 226, 117);
+}
+.contact_form textarea {
+  background-color: rgb(22, 21, 21);
+  width: 80%;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(8, 226, 117);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+.contact_form label {
+  display: block;
+  float: center;
+}
+.contact_form button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: rgb(8, 226, 117);
+  border-color: rgb(8, 226, 117);
+  border-style: solid;
+  border-radius: 10px;
+  width: 80%;
+  cursor: pointer;
+}
+.contact_form button p {
+  color: rgb(22, 21, 21);
+}
+.contact_form .aviso {
+  font-size: 13px;
+  color: rgb(8, 226, 117);
+}
+.contact_form .aviso span {
+  color: rgb(8, 226, 117);
+}
+.contact_form .campos {
+  font-size: 14px;
+  color: rgb(8, 226, 117);
+}
+.contact_form .campos label {
+  color: rgb(8, 226, 117);
+}
+.contact_form .campos textarea {
+  color: rgb(8, 226, 117);
+}
+.contact_form ::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+.contact_form ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+.contact_form .formulario input:focus {
+  outline: 0;
+  border: 1px solid rgb(8, 226, 117);
+}
+.contact_form .formulario textarea:focus {
+  outline: 0;
+  border: 1px solid rgb(8, 226, 117);
+}
+
+/*2. Estilos desde 480px*/
+/*2.1 Estilos 480px Index*/
+@media screen and (min-width: 480px) {
+  a {
+    display: flex;
+    align-items: flex-start;
+  }
+  .redes {
+    justify-content: space-evenly;
+    padding-left: 5%;
+  }
+  /*2.2 Estilos Galeria desde 480px*/
+  .galeria {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    max-height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-areas: "ejemplo1 ejemplo2" "ejemplo3 ejemplo4";
+    justify-items: center;
+    gap: 20px;
+  }
+  .ejemplo1 {
+    grid-area: ejemplo1;
+  }
+  .ejemplo2 {
+    grid-area: ejemplo2;
+  }
+  .ejemplo3 {
+    grid-area: ejemplo3;
+  }
+  .ejemplo4 {
+    grid-area: ejemplo4;
+  }
+}
+/*3. Estilos desde 768px*/
+/*3.1 Estilos 768px Index*/
+@media screen and (min-width: 768px) {
+  header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  .logomain {
+    min-width: 100%;
+    padding-left: 0px;
+  }
+  .imagenp {
+    transform: translate3d -50px, 0, 0;
+  }
+  .navbar {
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    height: 30vh;
+    margin: 5%;
+    align-items: center;
+    padding: 1%;
+    border: 1px solid white;
+    font-size: 2em;
+  }
+  .navlista:hover {
+    transform: scale(1.5);
+  }
+  .navlista {
+    float: left;
+    justify-content: space-evenly;
+  }
+  .maintext {
+    font-size: 150%;
+  }
+  .comentario1 {
+    font-size: 200%;
+    text-align: center;
+  }
+  .comentario2 {
+    font-size: 180%;
+  }
+  .redes {
+    margin-bottom: 2%;
+    border: 1px solid aliceblue;
+  }
+  /*Estilos Contacto desde 768px*/
+  .contact_form {
+    width: 50%;
+  }
+}
+/*4. Estilos desde 1024px*/
+/*4.1 Estilos Index desde 1024px*/
+@media screen and (min-width: 1024px) {
+  .buttonnb {
+    font-size: 1, 5em;
+  }
+  .maintext {
+    font-size: 1, 5em;
+  }
+  .comentario1 {
+    font-size: 1, 5em;
+  }
+  .redes {
+    padding-left: 10%;
+    border: 2px solid aliceblue;
+  }
+}/*# sourceMappingURL=estilos.css.map */

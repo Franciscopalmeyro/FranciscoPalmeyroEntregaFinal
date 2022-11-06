@@ -1,0 +1,46 @@
+/*2. Estilos desde 480px*/
+/*2.1 Estilos 480px Index*/
+
+@media screen and (min-width: 480px) {
+    a {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .redes {
+        justify-content: space-evenly;
+        padding-left: 5%;
+    }
+
+    /*2.2 Estilos Galeria desde 480px*/
+
+    .galeria {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+        max-height: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1.5fr;
+        grid-template-areas: "ejemplo1 ejemplo2"
+            "ejemplo3 ejemplo4";
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .ejemplo1 {
+        grid-area: ejemplo1;
+    }
+
+    .ejemplo2 {
+        grid-area: ejemplo2;
+    }
+
+    .ejemplo3 {
+        grid-area: ejemplo3;
+    }
+
+    .ejemplo4 {
+        grid-area: ejemplo4;
+    }
+}

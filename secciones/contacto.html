@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/estilos.css">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="description" content="Completa el formulario y nos comunicaremos a la brevedad">
+    <title>Code Me! Servicios de desarrollo web</title>
+</head>
+
+<body>
+    <header>
+        <div class="maintittle">
+            <img class="logomain" src="../img/logomovil.svg" alt="Logo Code">
+        </div>
+        <div>
+            <nav>
+                <ul class="navbar">
+                    <li class="navlista">
+                        <a class="buttonnb" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="navlista">
+                        <a class="buttonnb" href="../secciones/nosotros.html">Nuestra empresa</a>
+                    </li>
+                    <li class="navlista">
+                        <a class="buttonnb" href="../secciones/servicios.html">Nuestros servicios</a>
+                    </li>
+                    <li class="navlista">
+                        <a class="buttonnb" href="../secciones/galeria.html">Nuestros trabajos</a>
+                    </li>
+                    <li class="navlista">
+                        <a class="buttonnb" href="../secciones/contacto.html">Nuestras vías de comunicación</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="contact_form">
+        <div class="formulario">
+            <h1 class="tituloform">Formulario de contacto</h1>
+            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+            <form action="submeter-formulario.php" method="post">
+
+                <p class="campos">
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p class="campos">
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+
+                <p class="campos">
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <p class="campos">
+                    <label for="website" class="colocar_website">Sitio web
+                    </label>
+                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>
+
+                <p class="campos">
+                    <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                        placeholder="Escribe un asunto">
+                </p>
+
+                <p class="campos">
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+    <ul class="redes">
+        <li class="logo">
+            <a href="https://m.facebook.com/home.php?_rdr" target="_blank"><img src="../img/icons8-facebook.svg"
+                    alt="logoface"></a>
+        </li class="logo">
+        <li><a href="https://www.instagram.com/" target="_blank"><img src="../img/icons8-instagram.svg"
+                    alt="logoig"></a>
+        </li>
+        <li class="logo"><a href="https://web.whatsapp.com/" target="_blank"><img src="../img/icons8-whatsapp.svg"
+                    alt="logowspp"></a></li>
+        <li class="logo"><a href="../secciones/contacto.html" target="_blank"><img src="../img/icons8-email-64.png"
+                    alt="logomail"></a></li>
+    </ul>
+</footer>
+
+</html>
